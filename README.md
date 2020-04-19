@@ -1,17 +1,5 @@
 # Unity Customizable Toolbar v2
 
-Unity エディタで使用できるカスタマイズ可能なツールバー
-
-[![](https://img.shields.io/github/release/baba-s/unity-customizable-toolbar-v2.svg?label=latest%20version)](https://github.com/baba-s/unity-customizable-toolbar-v2/releases)
-[![](https://img.shields.io/github/release-date/baba-s/unity-customizable-toolbar-v2.svg)](https://github.com/baba-s/unity-customizable-toolbar-v2/releases)
-![](https://img.shields.io/badge/Unity-2018.3%2B-red.svg)
-![](https://img.shields.io/badge/.NET-4.x-orange.svg)
-[![](https://img.shields.io/github/license/baba-s/unity-customizable-toolbar-v2.svg)](https://github.com/baba-s/unity-customizable-toolbar-v2/blob/master/LICENSE)
-
-## バージョン
-
-- Unity 2018.3.11f1
-
 ## 使用例
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180307.png)

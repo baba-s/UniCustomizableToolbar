@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KoganeEditorLib
+namespace UniCustomizableToolbar
 {
 	[Serializable]
-	public sealed class CustomizableToolbarSettingsData
+	internal sealed class CustomizableToolbarSettingsData
 	{
 		//==============================================================================
 		// 変数(SerializeField)
@@ -25,8 +25,8 @@ namespace KoganeEditorLib
 		public bool    IsValid     => !string.IsNullOrEmpty( m_commandName );
 	}
 
-	[CreateAssetMenu( menuName = "Customizable Toolbar Settings", order = 9999 )]
-	public sealed class CustomizableToolbarSettings : ScriptableObject
+	[CreateAssetMenu( fileName = "Customizable Toolbar Settings", menuName = "UniCustomizableToolbar/Customizable Toolbar Settings", order = 9100 )]
+	internal sealed class CustomizableToolbarSettings : ScriptableObject
 	{
 		//==============================================================================
 		// 変数(SerializeField)

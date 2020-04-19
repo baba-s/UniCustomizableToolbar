@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace KoganeEditorLib
+namespace UniCustomizableToolbar
 {
-	public sealed class CustomizableToolbar : EditorWindow
+	internal sealed class CustomizableToolbar : EditorWindow
 	{
 		//==============================================================================
 		// 定数(const)
@@ -27,7 +27,7 @@ namespace KoganeEditorLib
 
 			var win = CreateInstance<CustomizableToolbar>();
 			win.titleContent = new GUIContent( TITLE );
-			win.m_settings = settings;
+			win.m_settings   = settings;
 			win.Show();
 
 			var pos = win.position;

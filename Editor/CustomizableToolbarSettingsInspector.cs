@@ -2,10 +2,10 @@
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace KoganeEditorLib
+namespace UniCustomizableToolbar
 {
 	[CustomEditor( typeof( CustomizableToolbarSettings ) )]
-	public sealed class CustomizableToolbarSettingsInspector : Editor
+	internal sealed class CustomizableToolbarSettingsInspector : Editor
 	{
 		//==============================================================================
 		// 変数
