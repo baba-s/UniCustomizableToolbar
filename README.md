@@ -1,20 +1,22 @@
-# Unity Customizable Toolbar v2
+# Uni Customizable Toolbar
+
+カスタマイズ可能なツールバーのエディタ拡張
 
 ## 使用例
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180307.png)
+![2020-04-23_201254](https://user-images.githubusercontent.com/6134875/80093123-e87c2b00-859e-11ea-95a8-6ed1e0c70dc9.png)
 
-## クイックスタート
+## 使い方
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180305.png)
+![2020-04-23_200942](https://user-images.githubusercontent.com/6134875/80093114-e4e8a400-859e-11ea-8ac7-009eb1f22a78.png)
 
-Project ビューの「Create > Customizable Toolbar Settings」を選択します  
+Project ビューの「Create > UniCustomizableToolbar > Customizable Toolbar Settings」を選択します  
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180301.png)
+![2020-04-23_201017](https://user-images.githubusercontent.com/6134875/80093118-e619d100-859e-11ea-88cd-56df63155303.png)
 
 すると、ツールバーに表示するボタンのデータを管理するアセットが作成されます  
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180303.png)
+![2020-04-23_201236](https://user-images.githubusercontent.com/6134875/80093122-e74afe00-859e-11ea-93f1-75f671efe55e.png)
 
 このアセットで、ツールバーに表示するボタンのデータを設定します  
 
@@ -25,7 +27,7 @@ Project ビューの「Create > Customizable Toolbar Settings」を選択しま�
 |Image|テキストの代わりに表示する画像（未設定でも可）|
 |Width|ボタンの横幅（0 なら自動調整）|
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20190430/20190430180307.png)
+![2020-04-23_201254](https://user-images.githubusercontent.com/6134875/80093123-e87c2b00-859e-11ea-95a8-6ed1e0c70dc9.png)
 
 あとは、アセットの「Open」ボタンを押すと、設定したボタンが配置されたツールバーが表示されるので、  
 このツールバーをエディタの好きな場所にドッキングすることで、  
